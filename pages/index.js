@@ -1,13 +1,10 @@
 import React from 'react';
-import Head from 'next/head';
+import HeadSection from '../components/shared/head';
 
 const Home = () => (
-  <div>
-    <Head>
-      <title>olo</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-  </div>
+  <React.Fragment>
+    <HeadSection title="Ana Sayfa" />
+  </React.Fragment>
 );
 
 export default Home;
