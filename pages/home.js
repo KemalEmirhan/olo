@@ -1,13 +1,13 @@
 import React from 'react';
 import HeadSection from '../components/shared/head';
 
-const Login = () => {
+const Home = () => {
   return (
     <React.Fragment>
-      <HeadSection title="Login" />
-      <h1>Login Page</h1>
+      <HeadSection title="Ana Sayfa" />
+      <h1>Ana Sayfa</h1>
     </React.Fragment>
   );
 };
 
-export default Login;
+export default Home;
