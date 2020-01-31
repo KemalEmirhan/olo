@@ -8,7 +8,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --fix . && echo 'Lint complete.'"
+    "lint": "eslint --fix . && echo 'Lint complete.'",
+    "storybook": "start-storybook -p 6006 -c .storybook"
   },
   "husky": {
     "hooks": {
@@ -37,9 +38,13 @@
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.4",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
+    "@storybook/react": "^5.3.9",
+    "babel-loader": "^8.0.6",
     "babel-plugin-styled-components": "^1.10.6",
+    "babel-preset-react-app": "^9.1.1",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-prettier": "^3.1.2",
