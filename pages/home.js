@@ -1,5 +1,5 @@
 import React from 'react';
-import HeadSection from '../components/shared/head';
+import HeadSection from '../src/components/shared/head';
 
 const Home = () => {
   return (
