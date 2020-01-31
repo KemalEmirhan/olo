@@ -18,8 +18,13 @@
     }
   },
   "lint-staged": {
-    "*.{js, jsx}": [
-      "eslint --fix"
+    "./src/*.{js, jsx}": [
+      "npx prettier --write",
+      "eslint src/*.js --fix"
+    ],
+    "./pages/*.{js, jsx}": [
+      "npx prettier --write",
+      "eslint src/*.js --fix"
     ]
   },
   "dependencies": {
