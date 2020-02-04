@@ -25,7 +25,7 @@ const BtnDefault = styled.button`
   }
 
   &:active {
-    transform: translateY(3px);
+    transform: scale(0.95);
     outline: none;
   }
 
