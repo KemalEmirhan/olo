@@ -1,7 +1,7 @@
 import React from 'react';
 import TextInput from './text.styled';
 
-import 'sass/util.scss';
+import '../../../../sass/form.scss';
 
 const Text = () => {
   return (
