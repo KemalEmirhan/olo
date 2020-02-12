@@ -8,17 +8,17 @@ import '../../../sass/util.scss';
 import TextInput from '../../components/Inputs/Text/text';
 
 storiesOf('Inputs', module)
-  .add('Text', () => {
-    return (
-      <div className="container-story">
-        <TextInput />
-      </div>
-    );
-  })
-  .add('Email', () => {
-    return <></>;
-  })
-  .add('Password', () => {
-    return <></>;
-  })
-  .addDecorator(storyFn => <div className="wrapper-story">{storyFn()}</div>);
+    .add('Text', () => {
+        return (
+            <div className='container-story'>
+                <TextInput />
+            </div>
+        );
+    })
+    .add('Email', () => {
+        return <></>;
+    })
+    .add('Password', () => {
+        return <></>;
+    })
+    .addDecorator(storyFn => <div className='wrapper-story'>{storyFn()}</div>);
