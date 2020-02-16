@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const TextInput = styled.input.attrs({
-    type: 'text'
+const EmailInput = styled.input.attrs({
+    type: 'email'
 })`
     width: 100%;
     height: 3rem;
@@ -17,4 +17,4 @@ const TextInput = styled.input.attrs({
     color: #111;
 `;
 
-export default TextInput;
+export default EmailInput;

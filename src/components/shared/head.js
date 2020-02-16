@@ -11,6 +11,9 @@ const HeadSection = ({ title }) => {
                 name='viewport'
                 content='initial-scale=1.0, width=device-width'
             />
+            <link
+                href='https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap'
+                rel='stylesheet'></link>
         </Head>
     );
 };
