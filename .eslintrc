@@ -1,31 +1,8 @@
 {
-  "env": {
-    "browser": true,
-    "commonjs": true,
-    "es6": true,
-    "node": true
-  },
-  "plugins": [
-    "react",
-    "react-hooks"
-  ],
-  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
-  "parserOptions": {
-    "sourceType": "module",
-    "ecmaVersion": 2018,
-    "ecmaFeatures": {
-      "jsx": true,
-      "modules": true
-    } 
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
-  },
+  "extends": ["next", "next/core-web-vitals", "prettier"],
   "rules": {
-    "linebreak-style": ["error", "unix"],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "prefer-const": "error",
+    "camelcase": "error",
+    "eqeqeq": "error"
   }
 }

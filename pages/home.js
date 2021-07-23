@@ -1,13 +1,15 @@
 import React from 'react';
-import HeadSection from '../src/components/shared/head';
+import Head from 'next/head';
 
 const Home = () => {
-    return (
-        <React.Fragment>
-            <HeadSection title='Ana Sayfa' />
-            <h1>Ana Sayfa</h1>
-        </React.Fragment>
-    );
+  return (
+    <React.Fragment>
+      <Head>
+        <title>Ana Sayfa</title>
+      </Head>
+      <h1>Ana Sayfa</h1>
+    </React.Fragment>
+  );
 };
 
 export default Home;

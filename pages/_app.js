@@ -1,14 +1,11 @@
-import App from 'next/app';
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default class UIApp extends App {
-    render() {
-        const { Component, pageProps } = this.props;
-
-        return (
-            <>
-                <Component {...pageProps} />
-            </>
-        );
-    }
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />;
 }
+
+App.propTypes = {
+  Component: PropTypes.func,
+  pageProps: PropTypes.object,
+};
